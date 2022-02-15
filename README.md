@@ -5,6 +5,8 @@
 This web application represents a simple clone of facebook app developed with Ruby on Rails. It is capable of performing basic CRUD operations on models. The project aims to practice these operation on rails console as shown in snapshots samples.
 
 ## Features
+
+- Post 
 - User
 
 ## Ruby and RoR version
@@ -28,6 +30,8 @@ Run the following command in the root directory to install all required gems in 
 ## Testing
 
 **Homepage**: http://127.0.0.1:3000/<br>
+
+<br>**Post**: http://127.0.0.1:3000/posts<br>
 **User**: http://127.0.0.1:3000/users
 
 Run the following command to initialize server<br>
@@ -41,9 +45,16 @@ Fields are validated before the new record is added
 
 ---
 
+
+![Create posts](/images/create-posts.png)
+
 ![Validate and create new users](/images/create-users.png)
 
 ### Read
+
+---
+
+![Select posts](/images/read-posts.png)
 
 ---
 
@@ -53,7 +64,12 @@ Fields are validated before the new record is added
 
 ![Select by gender](/images/select-by-gender.png)
 
+
 ### Update
+
+---
+
+![Update post](/images/update-post.png)
 
 ---
 
@@ -63,6 +79,11 @@ Fields are validated before the new record is added
 
 ---
 
+![Delete post](/images/delete-post.png)
+
+---
+
 ![Delete selected users](/images/delete-users.png)
 
 ![Select users after deletion](/images/select-users-after.png)
+
