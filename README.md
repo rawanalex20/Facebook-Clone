@@ -7,6 +7,7 @@ This web application represents a simple clone of facebook app developed with Ru
 ## Features
 
 - Post 
+- User
 
 ## Ruby and RoR version
 
@@ -29,7 +30,9 @@ Run the following command in the root directory to install all required gems in 
 ## Testing
 
 **Homepage**: http://127.0.0.1:3000/<br>
-<br>**Post**: http://127.0.0.1:3000/posts
+
+<br>**Post**: http://127.0.0.1:3000/posts<br>
+**User**: http://127.0.0.1:3000/users
 
 Run the following command to initialize server<br>
 `rails server`
@@ -42,7 +45,10 @@ Fields are validated before the new record is added
 
 ---
 
+
 ![Create posts](/images/create-posts.png)
+
+![Validate and create new users](/images/create-users.png)
 
 ### Read
 
@@ -50,14 +56,34 @@ Fields are validated before the new record is added
 
 ![Select posts](/images/read-posts.png)
 
+---
+
+![Select all](/images/select-all-before.png)
+
+---
+
+![Select by gender](/images/select-by-gender.png)
+
+
 ### Update
 
 ---
 
 ![Update post](/images/update-post.png)
 
+---
+
+![Update selected users](/images/update-users.png)
+
 ### Delete
 
 ---
 
 ![Delete post](/images/delete-post.png)
+
+---
+
+![Delete selected users](/images/delete-users.png)
+
+![Select users after deletion](/images/select-users-after.png)
+
