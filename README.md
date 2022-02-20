@@ -29,15 +29,20 @@ Run the following command in the root directory to install all required gems in 
 
 ## Testing
 
-**Homepage**: http://127.0.0.1:3000/<br>
+**Root**: http://127.0.0.1:3000/<br>
+**Homepage**: http://127.0.0.1:3000/home<br>
+**Post**: http://127.0.0.1:3000/posts<br>
+**User**: http://127.0.0.1:3000/users<br>
 
-<br>**Post**: http://127.0.0.1:3000/posts<br>
-**User**: http://127.0.0.1:3000/users
 
 Run the following command to initialize server<br>
 `rails server`
 
 ## Samples
+
+### Registeration
+
+![Register](/images/register.png)
 
 ### Create
 
